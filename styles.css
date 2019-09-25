@@ -1,21 +1,23 @@
 body{
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 
 }
 
 
 li {
     display: inline;
-    margin: 25px;
+    margin: 19px;
 }
 
 #nav {
     list-style-type: none;
     background-color: #10243B;
     color: white;
-    padding: 25px;
+    padding: 15px;
     margin: 0px;
+    text-transform: uppercase;
 }
 
 
@@ -27,16 +29,44 @@ ul:first-child {
     margin: 0px;
     padding: 0px;
 }
+li:nth-child(7){
+    padding-right: 100px;
+}
+#bluebox{
+    background-color: #0088cc;
+    padding-bottom: 15px;
+    padding: 31px;
+    padding-right: 61px;
+    margin-right: 0px;
+}
 
 #Hero{
-    background-image: url(images/fans.jpg);
+    background-color:  rgba(0,0,0,0);
+    background: linear-gradient(rgba(51,51,51,0.8) 0%,rgba(51,51,51,0) 56%,rgba(51,51,51,0) 100%),
+    url(images/graduation.jpg);
     background-repeat: none;
     background-size: cover;
-    width: 98.3vw;
+    width: 99.1vw;
     height: 100vh;
 }
-#left
+#Hero img {
+    position: relative;
+    top: 175px;
+    left: 100px;
+    
+}
+#Herotxt{
+    position: relative;
+    margin-left: 400px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #333333;
+    font-size: 1rem;
+}
+#bold{
+    font-style: bold;
+}
+#italics
 {
-    float: left;
-
+    font-style: italic;
 }
