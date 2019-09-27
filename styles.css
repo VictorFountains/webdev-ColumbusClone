@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
@@ -21,9 +26,6 @@ li {
 }
 
 
-img {
-    width: 100%;
-}
 
 ul:first-child {
     margin: 0px;
@@ -69,4 +71,64 @@ li:nth-child(7){
 #italics
 {
     font-style: italic;
+}
+
+#explorecchs {
+    width: 100vw;
+    height: 450px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#explorerheader{
+    width: 100vw;
+    height: 81px;
+    background-color: #10243B;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+#exploresection{
+    height: 369px;
+    width: 100%;
+    float: left;
+    background: red;
+}
+#hurricane{
+    height: 369px;
+    width: 24%;
+    float: left;
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+#Guidance{
+    height: 369px;
+    width: 24%;
+    float: left;
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+#CCNN
+{
+    height: 369px;
+    width: 24%;
+    float: left;
+    background-image: url(images/ccnn.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+#CCNLIVE{
+    height: 369px;
+    width: 24%;
+    float: left;
+    background-image: url(images/ccnn\ live.png);
+    background-position: center;
+    background-size: 369px;
+    background-repeat: no-repeat;
 }
