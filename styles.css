@@ -1,15 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
-
 }
-
 
 li {
     display: inline;
@@ -25,16 +23,16 @@ li {
     text-transform: uppercase;
 }
 
-
-
 ul:first-child {
     margin: 0px;
     padding: 0px;
 }
-li:nth-child(7){
+
+li:nth-child(7) {
     padding-right: 100px;
 }
-#bluebox{
+
+#bluebox {
     background-color: #0088cc;
     padding-bottom: 15px;
     padding: 31px;
@@ -42,22 +40,22 @@ li:nth-child(7){
     margin-right: 0px;
 }
 
-#Hero{
-    background-color:  rgba(0,0,0,0);
-    background: linear-gradient(rgba(51,51,51,0.8) 0%,rgba(51,51,51,0) 56%,rgba(51,51,51,0) 100%),
-    url(images/graduation.jpg);
+#Hero {
+    background-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(rgba(51, 51, 51, 0.8) 0%, rgba(51, 51, 51, 0) 56%, rgba(51, 51, 51, 0) 100%), url(images/graduation.jpg);
     background-repeat: none;
     background-size: cover;
     width: 99.1vw;
     height: 100vh;
 }
+
 #Hero img {
     position: relative;
     top: 175px;
     left: 100px;
-    
 }
-#Herotxt{
+
+#Herotxt {
     position: relative;
     margin-left: 400px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -65,11 +63,12 @@ li:nth-child(7){
     text-shadow: 2px 2px 3px #333333;
     font-size: 1rem;
 }
-#bold{
+
+#bold {
     font-style: bold;
 }
-#italics
-{
+
+#italics {
     font-style: italic;
 }
 
@@ -80,7 +79,7 @@ li:nth-child(7){
     padding: 0px;
 }
 
-#explorerheader{
+#explorerheader {
     width: 100vw;
     height: 81px;
     background-color: #10243B;
@@ -89,46 +88,116 @@ li:nth-child(7){
     color: white;
 }
 
-#exploresection{
+#exploresection {
     height: 369px;
     width: 100%;
-    float: left;
     background: red;
+    float: right;
 }
-#hurricane{
+
+#hurricane {
     height: 369px;
-    width: 24%;
-    float: left;
+    width: 25%;
     background-image: url(images/patriots\ plaza.jpg);
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
-}
-#Guidance{
-    height: 369px;
-    width: 24%;
     float: left;
+    text-align: center;
+}
+
+#Guidance {
+    height: 369px;
+    width: 25%;
     background-image: url(images/college.png);
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
-}
-#CCNN
-{
-    height: 369px;
-    width: 24%;
     float: left;
+}
+
+#CCNN {
+    height: 369px;
+    width: 25%;
     background-image: url(images/ccnn.jpg);
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
-}
-#CCNLIVE{
-    height: 369px;
-    width: 24%;
     float: left;
+}
+
+#CCNLIVE {
+    height: 369px;
+    width: 25%;
     background-image: url(images/ccnn\ live.png);
     background-position: center;
     background-size: 369px;
     background-repeat: no-repeat;
+    float: left;
 }
+
+.red {
+    color: red;
+    text-align: center;
+}
+
+.center {
+    text-align: center
+}
+
+.left {
+    float: left;
+}
+
+#exploretext {
+    padding-top: 184px;
+    text-align: center;
+    color: white;
+}
+
+#cchsglance {
+    width: 100vw;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#glanceheader {
+    text-align: center;
+    color: #10243B;
+}
+
+#carousel {
+    height: 1000px;
+    width: 100%;
+    padding-top: 200px;
+}
+
+#money {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+}
+
+#graduation {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+}
+
+#book {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+}
+
+#students {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+#colleges {}
