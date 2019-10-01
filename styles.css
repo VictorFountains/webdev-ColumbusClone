@@ -149,6 +149,10 @@ li:nth-child(7) {
     float: left;
 }
 
+.right{
+    float: right
+}
+
 #exploretext {
     padding-top: 184px;
     text-align: center;
@@ -200,4 +204,34 @@ li:nth-child(7) {
     float: left;
 }
 
-#colleges {}
+#colleges{
+    margin-bottom: 200px;
+}
+
+#footernav{
+    list-style-type: none;
+    background-color: #10243B;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+}
+
+#footer{
+ background-color: #333333;
+ width: 100vw;
+ height: 500px;
+}
+
+#footetext{
+    line-height: 20px;
+    color: white;
+}
+#missionstatement{
+    padding-right: 800px;
+    color: white
+}
+
+#cchscrest{
+    padding-right: 100px;
+
+}
