@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
+/*Navbar*/
 
 li {
     display: inline;
@@ -19,6 +20,7 @@ li {
     background-color: #10243B;
     color: white;
     padding: 15px;
+    padding-right: 0px;
     margin: 0px;
     text-transform: uppercase;
 }
@@ -35,11 +37,11 @@ li:nth-child(7) {
 #bluebox {
     background-color: #0088cc;
     padding-bottom: 15px;
-    padding: 31px;
-    padding-right: 61px;
+    padding-top: 31px;
+    padding-right: 108px;
     margin-right: 0px;
 }
-
+/*Hero*/
 #Hero {
     background-color: rgba(0, 0, 0, 0);
     background: linear-gradient(rgba(51, 51, 51, 0.8) 0%, rgba(51, 51, 51, 0) 56%, rgba(51, 51, 51, 0) 100%), url(images/graduation.jpg);
@@ -71,7 +73,7 @@ li:nth-child(7) {
 #italics {
     font-style: italic;
 }
-
+/*ExploreCCHS*/
 #explorecchs {
     width: 100vw;
     height: 450px;
@@ -153,6 +155,8 @@ li:nth-child(7) {
     float: right
 }
 
+/*CCHS at a Glance*/
+
 #exploretext {
     padding-top: 184px;
     text-align: center;
@@ -181,21 +185,21 @@ li:nth-child(7) {
     height: 300px;
     width: 300px;
     float: left;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 #graduation {
     height: 300px;
     width: 300px;
     float: left;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 #book {
     height: 300px;
     width: 300px;
     float: left;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 #students {
@@ -204,22 +208,53 @@ li:nth-child(7) {
     float: left;
 }
 
-#colleges{
-    margin-bottom: 200px;
+#bluebar
+{
+    background-color: #10243B;
+    width: 1000px;
+    margin-bottom: 100px;
+    height: 200px;
+    margin-left: 450px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 28px;
 }
+
+/*Colleges*/
+
+#colleges
+{padding-bottom: 200px;}
+
+
+#yale {
+    margin-right: 100px;
+}
+#um{
+    margin-right: 100px;
+   
+}
+#MIT{
+    margin-right: 100px;
+}
+#UNC{
+    margin-right: 100px;
+}
+
+/*Footer*/
 
 #footernav{
     list-style-type: none;
     background-color: #10243B;
     color: white;
     padding: 15px;
-    margin: 0px;
 }
 
 #footer{
  background-color: #333333;
  width: 100vw;
  height: 500px;
+ color: #ffffff;
 }
 
 #footetext{
