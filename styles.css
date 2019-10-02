@@ -226,6 +226,9 @@ li:nth-child(7) {
 #colleges
 {padding-bottom: 200px;}
 
+#CollegeText{
+    text-align: center;
+}
 
 #yale {
     margin-right: 100px;
